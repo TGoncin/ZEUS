@@ -1,0 +1,81 @@
+Dependencies for Project 'ZEUS-v3.1', Target 'defaultConfig': (DO NOT MODIFY !)
+CompilerVersion: 6240000::V6.24::ARMCLANG
+F (.\main.c)(0x69CC47FC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RB-I./RTE/_defaultConfig-IC:/Users/TGonc/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/TGonc/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MMD)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x696A85F1)
+I (RTE\_defaultConfig\RTE_Components.h)(0x69C8446D)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x69641263)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x696A85F1)
+I (soilSensor.h)(0x69C85C27)
+I (relay.h)(0x69CA9CDE)
+I (i2c.h)(0x69CAC240)
+I (watchDogTimer.h)(0x69C858CF)
+I (delay.h)(0x69C86146)
+I (buttons.h)(0x69CC3806)
+I (timer.h)(0x69CC1C1F)
+I (lcd.h)(0x69CAA752)
+F (.\i2c.c)(0x69CC072E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RB-I./RTE/_defaultConfig-IC:/Users/TGonc/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/TGonc/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_-o ./objects/i2c.o -MMD)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x696A85F1)
+I (RTE\_defaultConfig\RTE_Components.h)(0x69C8446D)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x69641263)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x696A85F1)
+I (i2c.h)(0x69CAC240)
+F (.\lcd.c)(0x69CC0DED)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RB-I./RTE/_defaultConfig-IC:/Users/TGonc/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/TGonc/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_-o ./objects/lcd.o -MMD)
+I (lcd.h)(0x69CAA752)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x696A85F1)
+I (RTE\_defaultConfig\RTE_Components.h)(0x69C8446D)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x69641263)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x696A85F1)
+I (i2c.h)(0x69CAC240)
+I (delay.h)(0x69C86146)
+F (.\delay.c)(0x69C864EF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RB-I./RTE/_defaultConfig-IC:/Users/TGonc/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/TGonc/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_-o ./objects/delay.o -MMD)
+I (delay.h)(0x69C86146)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x696A85F1)
+I (RTE\_defaultConfig\RTE_Components.h)(0x69C8446D)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x69641263)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x696A85F1)
+F (.\watchDogTimer.c)(0x69C858D1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RB-I./RTE/_defaultConfig-IC:/Users/TGonc/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/TGonc/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_-o ./objects/watchdogtimer.o -MMD)
+I (watchDogTimer.h)(0x69C858CF)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x696A85F1)
+I (RTE\_defaultConfig\RTE_Components.h)(0x69C8446D)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x69641263)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x696A85F1)
+F (.\relay.c)(0x69CC1B13)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RB-I./RTE/_defaultConfig-IC:/Users/TGonc/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/TGonc/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_-o ./objects/relay.o -MMD)
+I (relay.h)(0x69CA9CDE)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x696A85F1)
+I (RTE\_defaultConfig\RTE_Components.h)(0x69C8446D)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x69641263)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x696A85F1)
+I (i2c.h)(0x69CAC240)
+F (.\timer.c)(0x69CC1BB3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RB-I./RTE/_defaultConfig-IC:/Users/TGonc/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/TGonc/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_-o ./objects/timer.o -MMD)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x696A85F1)
+I (RTE\_defaultConfig\RTE_Components.h)(0x69C8446D)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x69641263)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x696A85F1)
+I (timer.h)(0x69CC1C1F)
+F (.\soilSensor.c)(0x69C85C29)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RB-I./RTE/_defaultConfig-IC:/Users/TGonc/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/TGonc/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_-o ./objects/soilsensor.o -MMD)
+I (soilSensor.h)(0x69C85C27)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x696A85F1)
+I (RTE\_defaultConfig\RTE_Components.h)(0x69C8446D)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x69641263)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x696A85F1)
+F (.\buttons.c)(0x69CC380C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RB-I./RTE/_defaultConfig-IC:/Users/TGonc/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/TGonc/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_-o ./objects/buttons.o -MMD)
+I (buttons.h)(0x69CC3806)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x696A85F1)
+I (RTE\_defaultConfig\RTE_Components.h)(0x69C8446D)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x69641263)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x696A85F1)
+F (.\i2c.h)(0x69CAC240)()
+F (.\lcd.h)(0x69CAA752)()
+F (.\delay.h)(0x69C86146)()
+F (.\watchDogTimer.h)(0x69C858CF)()
+F (.\relay.h)(0x69CA9CDE)()
+F (.\timer.h)(0x69CC1C1F)()
+F (.\soilSensor.h)(0x69C85C27)()
+F (.\buttons.h)(0x69CC3806)()
+F (RTE/Device/STM32F103RB/RTE_Device.h)(0x696A85F2)()
+F (RTE/Device/STM32F103RB/startup_stm32f10x_md.s)(0x696A85F1)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103RB-I./RTE/_defaultConfig-IC:/Users/TGonc/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/TGonc/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (RTE/Device/STM32F103RB/system_stm32f10x.c)(0x696A85F1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RB-I./RTE/_defaultConfig-IC:/Users/TGonc/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-IC:/Users/TGonc/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_-o ./objects/system_stm32f10x.o -MMD)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x696A85F1)
+I (RTE\_defaultConfig\RTE_Components.h)(0x69C8446D)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include\core_cm3.h)(0x69641263)
+I (C:\Users\TGonc\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x696A85F1)
