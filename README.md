@@ -1,11 +1,11 @@
 <div align="center">
-  <img width="197" height="110" alt="image" src="https://github.com/user-attachments/assets/def1c765-c350-49cd-adfe-fde1a8566898" />
+  <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/def1c765-c350-49cd-adfe-fde1a8566898" />
   <br>
   <small><strong>Version Model:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>v.3.1</small>
 </div>
 
 <div align="center">
-<h4>A fully automated, microcontroller-operated, soil moisture monitored irrigation system</h4>
+<h3>A fully automated, microcontroller-operated, soil moisture monitored irrigation system</h3>
 </div>
 
 
@@ -14,11 +14,9 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
+
 <div align="center">
   <br>
   <p>
@@ -39,10 +37,14 @@
   </p>
 </div>
 
+
+
 <br>
 <br>
 <br>
 <br>
+
+
 
 <div align="center">
   <img width="553" height="459" alt="image" src="https://github.com/user-attachments/assets/2a658316-2c7e-4942-95c7-732c83d34bad" />
