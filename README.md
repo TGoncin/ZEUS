@@ -1,19 +1,36 @@
 <div align="center">
-  <img width="300" alt="ZEUS Logo" src="https://github.com/user-attachments/assets/YOUR_ZEUS_LOGO_HERE" />
+  <img width="197" height="110" alt="image" src="https://github.com/user-attachments/assets/def1c765-c350-49cd-adfe-fde1a8566898" />
+
 </div>
 
+
+
 <br>
 <br>
 
+
 <div align="center">
-  <h1>ZEUS — Soil Moisture Retention System</h1>
+  <h1>Zeus<br>———— <br>Soil Moisture Retention System</h1>
   <p><em>A fully automated, microcontroller-operated, soil moisture monitored irrigation system</em></p>
 </div>
 
+
+
+<br>
 <br>
 
+
+
 <div align="center">
-  <h3>README Quick Links</h3>
+  <img width="553" height="459" alt="image" src="https://github.com/user-attachments/assets/2a658316-2c7e-4942-95c7-732c83d34bad" />
+</div>
+
+
+<br>
+<br>
+
+
+<div align="center">
   <br>
   <p>
     <a href="#project-overview">Project Overview</a> &nbsp;&nbsp;•&nbsp;&nbsp;
@@ -28,12 +45,19 @@
     <br>
     <a href="#user-controls">User Controls</a> &nbsp;&nbsp;•&nbsp;&nbsp;
     <a href="#datasheets">Datasheets</a> &nbsp;&nbsp;•&nbsp;&nbsp;
-    <a href="#legal">Legal Disclosure</a>
+    <a href="#legal">Legal Disclosure</a> &nbsp;&nbsp;•&nbsp;&nbsp;
+    <a href="#schematic">Full Schematic</a>
   </p>
 </div>
 
+
+
+
 <br>
 <br>
+
+
+
 
 ---
 
@@ -51,6 +75,13 @@
 
 <br>
 <br>
+
+<p> <strong> Version Model:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>v.3.1</p>
+
+<br>
+<br>
+
+
 
 <h2 align="center" id="project-overview">Project Overview</h2>
 <br>
@@ -373,6 +404,20 @@ ZEUS/
 <br>
 <br>
 
+
+<h2 align="center" id="schematic">Hardware Schematic</h2>
+<br>
+<div align="center">
+<img width="758" height="754" alt="image" src="https://github.com/user-attachments/assets/2e8cf36c-b6c0-4a7e-af79-f375461426ef" />
+</div>
+</p>
+
+
+<br>
+<br>
+
+
+
 <h2 align="center" id="fsm-diagrams">Finite State Machine Diagrams</h2>
 <br>
 
@@ -381,10 +426,13 @@ ZEUS/
 
 <br>
 
-<!-- Replace with your actual image once uploaded to GitHub -->
+
+
 <p align="center">
-  <img width="700" alt="Button FSM Diagram" src="https://github.com/user-attachments/assets/YOUR_BTN_FSM_IMAGE_HERE" />
+  <img width="622" height="705" alt="image" src="https://github.com/user-attachments/assets/a3fe87e6-b3b9-4984-90c6-3077d13b04cd" />
 </p>
+
+
 
 <br>
 <br>
@@ -394,9 +442,9 @@ ZEUS/
 
 <br>
 
-<!-- Replace with your actual image once uploaded to GitHub -->
+
 <p align="center">
-  <img width="700" alt="Complete ZEUS FSM Diagram" src="https://github.com/user-attachments/assets/YOUR_FULL_FSM_IMAGE_HERE" />
+  <img width="601" height="790" alt="image" src="https://github.com/user-attachments/assets/22022e23-9377-4f62-b17f-30ee8c0c19e8" />
 </p>
 
 <br>
