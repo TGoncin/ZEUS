@@ -63,7 +63,8 @@
 
 > ⚡ <strong>SAFETY WARNING</strong>
 >
-> <strong>120VAC mains voltage is lethal.</strong> The AC ground and neutral lines must <strong>NEVER</strong> be connected to the breadboard or STM32 DC ground.
+> <strong>120VAC mains voltage is lethal.</strong><br>
+> The AC ground and neutral lines must <strong>NEVER</strong> be connected to the breadboard or STM32 DC ground.
 > All AC wiring and the relay module must be secured inside a fully insulated, waterproof, non-conductive enclosure to prevent electrocution and short circuits.
 
 <br>
@@ -169,7 +170,7 @@ The system continuously samples soil moisture throughout the day but only permit
 
 <br>
 
-> <strong>Note on Sensor Corrosion Protection:</strong> To prevent galvanic corrosion of the soil sensor probes, ZEUS only supplies power to the sensor for brief 10–20ms intervals during an active reading, then immediately cuts power via GPIO pin PB0.
+> <strong>Note on Sensor Corrosion Protection:</strong> <br>To prevent galvanic corrosion of the soil sensor probes, ZEUS only supplies power to the sensor for brief 10–20ms intervals during an active reading, then immediately cuts power via GPIO pin PB0.
 
 <br>
 <br>
@@ -579,7 +580,7 @@ To build and flash ZEUS firmware onto an STM32F103RB Nucleo-64:
 
 <br>
 
-> <strong><strong>Note:<strong></strong><br>The IWDG watchdog begins counting immediately on boot. <br> The main loop must feed the watchdog every iteration.<br> If the watchdog is not fed within ~26.2 seconds, a hardware reset will occur automatically.
+> <strong>Note:</strong><br>The IWDG watchdog begins counting immediately on boot. <br> The main loop must feed the watchdog every iteration.<br> If the watchdog is not fed within ~26.2 seconds, a hardware reset will occur automatically.
 
 <br>
 <br>
@@ -745,11 +746,22 @@ Redistribution and derivative works are permitted provided this disclaimer is pr
 
 <br>
 
-*Full legal disclosure is available in the* [`Zeus - Legal Disclosure.pdf`](Legal Disclosure) *file.*
+*Full legal disclosure is available in the*    <a href="#legal">Legal Disclosure</a>
 
 <br>
 <br>
+
+
 
 ---
 
-<p align="right"><a href="#zeus--soil-moisture-retention-system"><strong>Back to top ↑</strong></a></p>
+
+<div align="center">
+  <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/def1c765-c350-49cd-adfe-fde1a8566898" />
+  <br>
+  <small><strong>Version Model:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>v.3.1</small>
+</div>
+
+
+
+<h3 align="right"><a href="#zeus--soil-moisture-retention-system"><strong>Back to top ↑</strong></a></h3>
