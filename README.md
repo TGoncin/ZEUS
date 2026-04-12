@@ -1,35 +1,24 @@
 <div align="center">
   <img width="197" height="110" alt="image" src="https://github.com/user-attachments/assets/def1c765-c350-49cd-adfe-fde1a8566898" />
-
+  <br>
+  <small><strong>Version Model:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>v.3.1</small>
 </div>
-
-
-
-<br>
-<br>
-
 
 <div align="center">
-  <h1>Zeus<br>———— <br>Soil Moisture Retention System</h1>
-  <p><em>A fully automated, microcontroller-operated, soil moisture monitored irrigation system</em></p>
+<h4>A fully automated, microcontroller-operated, soil moisture monitored irrigation system</h4>
 </div>
 
 
 
-<br>
-<br>
-
-
-
-<div align="center">
-  <img width="553" height="459" alt="image" src="https://github.com/user-attachments/assets/2a658316-2c7e-4942-95c7-732c83d34bad" />
-</div>
-
 
 <br>
 <br>
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <div align="center">
   <br>
   <p>
@@ -50,22 +39,29 @@
   </p>
 </div>
 
+<br>
+<br>
+<br>
+<br>
 
+<div align="center">
+  <img width="553" height="459" alt="image" src="https://github.com/user-attachments/assets/2a658316-2c7e-4942-95c7-732c83d34bad" />
+</div>
 
 
 <br>
 <br>
-
-
+<br>
+<br>
 
 
 ---
 
 <br>
 
-> ⚡ **SAFETY WARNING**
+> ⚡ <strong>SAFETY WARNING</strong>
 >
-> **120VAC mains voltage is lethal.** The AC ground and neutral lines must **NEVER** be connected to the breadboard or STM32 DC ground.
+> <strong>120VAC mains voltage is lethal.</strong> The AC ground and neutral lines must <strong>NEVER</strong> be connected to the breadboard or STM32 DC ground.
 > All AC wiring and the relay module must be secured inside a fully insulated, waterproof, non-conductive enclosure to prevent electrocution and short circuits.
 
 <br>
@@ -73,10 +69,6 @@
 
 ---
 
-<br>
-<br>
-
-<p> <strong> Version Model:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>v.3.1</p>
 
 <br>
 <br>
@@ -175,7 +167,7 @@ The system continuously samples soil moisture throughout the day but only permit
 
 <br>
 
-> **Note on Sensor Corrosion Protection:** To prevent galvanic corrosion of the soil sensor probes, ZEUS only supplies power to the sensor for brief 10–20ms intervals during an active reading, then immediately cuts power via GPIO pin PB0.
+> <strong>Note on Sensor Corrosion Protection:</strong> To prevent galvanic corrosion of the soil sensor probes, ZEUS only supplies power to the sensor for brief 10–20ms intervals during an active reading, then immediately cuts power via GPIO pin PB0.
 
 <br>
 <br>
@@ -585,7 +577,7 @@ To build and flash ZEUS firmware onto an STM32F103RB Nucleo-64:
 
 <br>
 
-> **Note:** The IWDG watchdog begins counting immediately on boot. The main loop must feed the watchdog every iteration. If the watchdog is not fed within ~26.2 seconds, a hardware reset will occur automatically.
+> <strong><strong>Note:<strong></strong><br>The IWDG watchdog begins counting immediately on boot. <br> The main loop must feed the watchdog every iteration.<br> If the watchdog is not fed within ~26.2 seconds, a hardware reset will occur automatically.
 
 <br>
 <br>
@@ -726,32 +718,32 @@ To build and flash ZEUS firmware onto an STM32F103RB Nucleo-64:
 <h2 align="center" id="legal">Legal Disclosure & Limitation of Liability</h2>
 <br>
 
-**ZEUS Irrigation Controller | Open-Source Hardware & Firmware Design**<br>
+<strong>ZEUS Irrigation Controller | Open-Source Hardware & Firmware Design</strong><br>
 Copyright © 2026 Tom Goncin. Released freely for educational and personal use.
 
 <br>
 
-This design is provided strictly **"as-is"** without warranties of any kind — expressed, implied, statutory, or otherwise. The author disclaims all implied warranties including merchantability, fitness for a particular purpose, accuracy, completeness, and non-infringement.
+This design is provided strictly <strong>"as-is"</strong> without warranties of any kind — expressed, implied, statutory, or otherwise. The author disclaims all implied warranties including merchantability, fitness for a particular purpose, accuracy, completeness, and non-infringement.
 
 <br>
 
-**The author shall not be liable for:** personal injury or death resulting from electrical shock; property damage from improper wiring or short circuits; vegetation or flooding damage from software faults or misconfiguration; or any equipment damage including the microcontroller, sensors, relay, or irrigation valves.
+<strong>The author shall not be liable for:</strong> personal injury or death resulting from electrical shock; property damage from improper wiring or short circuits; vegetation or flooding damage from software faults or misconfiguration; or any equipment damage including the microcontroller, sensors, relay, or irrigation valves.
 
 <br>
 
-> ⚡ **HIGH VOLTAGE WARNING:** This design involves 120VAC mains voltage. Any person who constructs, modifies, or operates this design assumes full and sole responsibility for compliance with all applicable electrical codes, safety standards, and local regulations. **The author strongly recommends that all AC wiring be performed or inspected by a licensed electrician.**
+> ⚡ <strong>HIGH VOLTAGE WARNING:</strong> <br> <br>This design involves 120VAC mains voltage. <br>Any person who constructs, modifies, or operates this design assumes full and sole responsibility for compliance with all applicable electrical codes, safety standards, and local regulations. <br> <br> </strong>The author strongly recommends that all AC wiring be performed or inspected by a licensed electrician.</strong>
 
 <br>
 
-By downloading, building, or deploying this design, you acknowledge that you are solely responsible for verifying suitability, independently verifying all wiring and pinouts, and assuming all risks associated with high-voltage AC power and automated irrigation systems. This design is intended for **personal and educational use only**.
+By downloading, building, or deploying this design, you acknowledge that you are solely responsible for verifying suitability, independently verifying all wiring and pinouts, and assuming all risks associated with high-voltage AC power and automated irrigation systems. This design is intended for <strong>personal and educational use only</strong>.
 
 <br>
 
-Redistribution and derivative works are permitted provided this disclaimer is preserved in full. **Commercial use requires prior written consent from the author.**
+Redistribution and derivative works are permitted provided this disclaimer is preserved in full. <strong>Commercial use requires prior written consent from the author.</strong>
 
 <br>
 
-*Full legal disclosure is available in the* [`LEGAL.md`](LEGAL.md) *file.*
+*Full legal disclosure is available in the* [`Zeus - Legal Disclosure.pdf`](Legal Disclosure) *file.*
 
 <br>
 <br>
